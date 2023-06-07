@@ -1,10 +1,10 @@
 <template>
 	<header>
 		<nav>
-			<router-link to="/">Sobre</router-link>
-			<router-link to="/">Experiência</router-link>
+			<router-link to="#about">Sobre</router-link>
+			<router-link to="#experience">Experiência</router-link>
 			<router-link to="/">
-				<img src="@/assets/main-icon.png" alt="Logo" />
+				<img src="@/assets/main-icon.png" alt="Logo" @click="rollUp" />
 			</router-link>
 			<router-link to="/">Trabalhos</router-link>
 			<router-link to="/">Contato</router-link>
@@ -15,6 +15,14 @@
 <script>
 	export default {
 		name: "HeaderComponent",
+		methods: {
+			rollUp() {
+				window.scrollTo({ top: 0, behavior: "smooth" });
+			},
+		},
+		created() {
+			this.getYear();
+		},
 	};
 </script>
 

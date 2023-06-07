@@ -98,5 +98,6 @@
 
 	#main {
 		flex: 1;
+		margin-top: 120px;
 	}
 </style>

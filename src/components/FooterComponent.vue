@@ -1,7 +1,7 @@
 <template>
 	<footer>
 		<router-link to="/">
-			<img src="@/assets/main-icon.png" alt="Logo" @click="rollUp()" />
+			<img src="@/assets/main-icon.png" alt="Logo" @click="rollUp" />
 		</router-link>
 		<p>Copyright &#169; {{ year }} Pedro Gutierres. Todos os direitos reservados</p>
 	</footer>
