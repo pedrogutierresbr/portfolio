@@ -1,32 +1,101 @@
 <template>
-  <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
-  </div>
+	<div id="app">
+		<HeaderComponent />
+		<main id="main">
+			<router-view />
+		</main>
+		<FooterComponent />
+	</div>
 </template>
 
+<script>
+	import HeaderComponent from "@/components/HeaderComponent.vue";
+	import FooterComponent from "@/components/FooterComponent.vue";
+
+	export default {
+		name: "App",
+		components: {
+			HeaderComponent,
+			FooterComponent,
+		},
+	};
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+	* {
+		box-sizing: border-box;
+	}
 
-nav {
-  padding: 30px;
-}
+	body,
+	ul,
+	li,
+	h1,
+	h2,
+	p {
+		margin: 0;
+		padding: 0;
+	}
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+	h1,
+	h2,
+	h3 {
+		font-family: Ubuntu, Helvetica, sans-serif;
+	}
 
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+	p {
+		font-family: Mukta, Helvetica, sans-serif;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	body {
+		background: #0d1215;
+	}
+
+	a {
+		color: #345;
+		text-decoration: none;
+	}
+
+	img {
+		max-width: 100%;
+		display: block;
+	}
+
+	label {
+		margin-bottom: 5px;
+	}
+
+	input,
+	textarea {
+		border-radius: 4px;
+		border: 1px solid white;
+		padding: 15px;
+		box-shadow: 0 4px 8px rgba(30, 60, 90, 0.1);
+		transition: all 0.3s;
+		font-size: 1rem;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-bottom: 15px;
+	}
+
+	input:hover,
+	input:focus,
+	textarea:hover,
+	textarea:focus {
+		outline: none;
+		box-shadow: 0 6px 12px rgba(30, 60, 90, 0.2);
+		border-color: #3fb984;
+	}
+
+	#app {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+	#main {
+		flex: 1;
+	}
 </style>
