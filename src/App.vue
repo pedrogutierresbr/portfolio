@@ -42,7 +42,8 @@
 		font-family: Ubuntu, Helvetica, sans-serif;
 	}
 
-	p {
+	p,
+	a {
 		font-family: Mukta, Helvetica, sans-serif;
 	}
 
