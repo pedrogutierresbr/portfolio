@@ -38,7 +38,6 @@
 		font-size: 1.2rem;
 		color: #fff;
 		position: relative;
-		top: 135px;
 		background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
 		border-top: 1px solid rgba(255, 255, 255, 0.2);
 		box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.1);

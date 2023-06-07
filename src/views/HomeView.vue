@@ -30,4 +30,9 @@
 	};
 </script>
 
-<style scoped></style>
+<style scoped>
+	div {
+		width: 1260px;
+		margin: 0 auto;
+	}
+</style>

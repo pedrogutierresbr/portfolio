@@ -6,8 +6,8 @@
 			<router-link to="/">
 				<img src="@/assets/main-icon.png" alt="Logo" @click="rollUp" />
 			</router-link>
-			<router-link to="/">Trabalhos</router-link>
-			<router-link to="/">Contato</router-link>
+			<router-link to="#projects">Trabalhos</router-link>
+			<router-link to="#contact">Contato</router-link>
 		</nav>
 	</header>
 </template>
@@ -19,9 +19,6 @@
 			rollUp() {
 				window.scrollTo({ top: 0, behavior: "smooth" });
 			},
-		},
-		created() {
-			this.getYear();
 		},
 	};
 </script>
@@ -44,7 +41,7 @@
 	}
 
 	nav {
-		width: 1270px;
+		width: 1260px;
 		height: 100%;
 		margin: 0 auto;
 		display: flex;
