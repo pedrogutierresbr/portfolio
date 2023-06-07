@@ -51,7 +51,7 @@
 
 	a {
 		line-height: 140%;
-		font-size: 24px;
+		font-size: 18px;
 		font-weight: 400;
 		color: #e0ede7;
 	}

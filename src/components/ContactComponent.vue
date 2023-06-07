@@ -53,15 +53,15 @@
 		font-size: 36px;
 		line-height: 110%;
 		text-align: center;
-		margin-bottom: 60px;
+		margin-bottom: 64px;
 	}
 
 	p {
 		color: #c4d0cd;
-		font-size: 24px;
+		font-size: 18px;
 		line-height: 140%;
 		text-align: center;
-		margin-bottom: 128px;
+		margin-bottom: 96px;
 	}
 
 	.social-networks {
