@@ -13,6 +13,15 @@
 				year: null,
 			};
 		},
+		methods: {
+			getYear() {
+				const date = new Date().getFullYear();
+				this.year = date;
+			},
+		},
+		created() {
+			this.getYear();
+		},
 	};
 </script>
 
