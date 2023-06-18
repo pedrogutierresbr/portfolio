@@ -27,7 +27,7 @@
 	header {
 		position: fixed;
 		width: 100%;
-		height: 120px;
+		height: 110px;
 
 		background: linear-gradient(
 			180deg,
