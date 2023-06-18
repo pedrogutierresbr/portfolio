@@ -58,7 +58,7 @@
 	};
 </script>
 
-<style>
+<style scoped>
 	#skills {
 		display: flex;
 		align-items: center;

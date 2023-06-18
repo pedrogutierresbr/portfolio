@@ -49,11 +49,12 @@
 	}
 
 	h2 {
-		color: #c4d0cd;
+		color: #e0ede7;
 		font-size: 36px;
 		line-height: 110%;
 		text-align: center;
 		margin-bottom: 64px;
+		font-weight: 400;
 	}
 
 	p {
