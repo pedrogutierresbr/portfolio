@@ -62,7 +62,7 @@
 	#skills {
 		display: flex;
 		align-items: center;
-		padding: 270px 0;
+		padding: 120px 0;
 	}
 
 	.skills-title {

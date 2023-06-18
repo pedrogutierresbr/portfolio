@@ -42,7 +42,7 @@
 <style scoped>
 	#contact {
 		width: 100%;
-		padding: 220px 0;
+		padding: 110px 0 220px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
