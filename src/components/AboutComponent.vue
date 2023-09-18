@@ -45,7 +45,7 @@
 
 <style scoped>
 	#about {
-		padding: 110px 0;
+		padding: 120px 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
